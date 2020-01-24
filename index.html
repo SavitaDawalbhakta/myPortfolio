@@ -11,44 +11,15 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!-- src="http://placehold.it/1600X700"To place hold images-->
     <!--Custom Css-->
     <link rel="stylesheet" href="./css/style.css" />
-    <style>
-      body,
-      html {
-        height: 100%;
-        width: 100%;
-      }
-
-      #mainNav {
-        background-color: antiquewhite;
-      }
-      header .htop {
-        position: relative;
-        margin-top: 50px;
-        text-align: center;
-        width: 100%;
-        min-height: auto;
-        background-image: url(https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?ixlib=rb-1.2.1&dpr=1&auto=format&fit=crop&w=416&h=300&q=60);
-        background-size: cover;
-        color: mediumvioletred;
-        font-size: 1em;
-        padding: 3em;
-      }
-      .htop div,
-      #about .container,
-      #contact .container {
-        background-color: rgb(0, 0, 0) transparent;
-        background-color: rgba(0, 0, 0, 0.6);
-        padding: 10px;
-        color: white;
-      }
-    </style>
+   
   </head>
-  <body>
+  <body  data-spy="scroll" data-target="#navbarNav">
     <nav
       id="mainNav"
-      class="navbar navbar-expand-lg navbar-light navbar fixed-top"
+      class="navbar navbar-expand-lg navbar-dark navbar fixed-top"
     >
       <a class="navbar-brand" href="#">Navbar</a>
       <button
@@ -63,102 +34,211 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav text-capitalize">
           <li class="nav-item active">
             <a class="nav-link" href="#"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#education">education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#Experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            >
+            <a class="nav-link" href="#contact">contact</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Hobbies">Hobby</a>
+          </li>
+          
         </ul>
       </div>
     </nav>
-    <header>
-      <div class="htop">
-        <h1>Your Compamy</h1>
-        <button type="button" class="btn btn-outline-danger">Click</button>
+    <header class="htop">
+      
+      <div>
+        <h1>Hello, I am Savita Dawalbhakta</h1>
+        <a href="#education" class="btn btn-outline-success">My Skillsets</a>
       </div>
+          
     </header>
+    <!--class="d-flex flex-column"-->
 
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+    <section id="education" class="msection">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <h3>Masters in Electronics Engineering</h3>
+            <p>Jawaharlal Nehru Engineering Collge, Aurangabad</p>
+            <p>First Division</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <h3>Bachelors in Electronics and Telecommunication Engineering</h3>
+            <p>Government Engineering College, Aurangabad</p>
+            <p>First Division</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <h3>Highschool Diploma</h3>
+            <p>People's Highschool, Nanded</p>
+            <p>Distinction</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <h3>Advanced Diploma in Computers</h3>
+            <p>Pune Institute of Computer Technology, Pune</p>
+            <p>Distinction</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <p>Aenean commodo ligula eget dolor.</p>
+    <section id="Experience" class="msection">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="card" style="width: 18rem;">
+              <img
+                class="card-img-top"
+                src="./images/education.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Davidson County Community College</h5>
+                <p class="card-text">
+                  Instructor, Electronics Engineering
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="card" style="width: 18rem;">
+              <img
+                class="card-img-top"
+                src="./images/education.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Forsyth County Community College</h5>
+                <p class="card-text">
+                  Adjunct Instructor, Tutor Computer Science
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="card" style="width: 18rem;">
+              <img
+                class="card-img-top"
+                src="./images/education.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Government Engineering Collge, Aurangabad</h5>
+                <p class="card-text">
+                  Lecturer, Electronics Engineering
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-4 text-center">
+            <div class="card" style="width: 18rem;">
+              <img
+                class="card-img-top"
+                src="./images/education.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Government Polytechnic , Usmanabad</h5>
+                <p class="card-text">
+                  Lecturer, Electronics Engineering
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 text-center">
+            <div class="card" style="width: 18rem;">
+              <img
+                class="card-img-top"
+                src="./images/education.jpg";
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Videocon International Ltd, Aurangabad</h5>
+                <p class="card-text">
+                  Quality Engineer
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        </div>
+      </div>
+    </section>
 
-    <p>Aenean massa.</p>
+    <section id="more"></section>
 
-    <p>
-      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus.
-    </p>
+    <aside id="sidemenu">
+      <div class="container text-center  bg-success text-white">
+        Add your email to the list...
+        <button class="btn btn-primary">Add Email</button>
+      </div>
+    </aside>
 
-    <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+    <section id="contact" class="msection">
+      <div class="container">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+           
+                <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-dark"
+              >We'll never share your email with anyone else.</small
+            >
+           
+            
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Password"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
 
-    <p>Nulla consequat massa quis enim.</p>
-
-    <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-
-    <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-
-    <p>Nullam dictum felis eu pede mollis pretium.</p>
-
-    <p>Integer tincidunt. Cras dapibus.</p>
-
-    <p>Vivamus elementum semper nisi.</p>
-
-    <p>Aenean vulputate eleifend tellus.</p>
-
-    <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-
-    <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-
-    <p>Phasellus viverra nulla ut metus varius laoreet.</p>
-
-    <p>Quisque rutrum.</p>
-
-    <p>Aenean imperdiet.</p>
-
-    <p>Etiam ultricies nisi vel augue.</p>
-
-    <p>Curabitur ullamcorper ultricies nisi.</p>
-
-    <p>Nam eget dui. Etiam rhoncus.</p>
-
-    <p>
-      Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
-      sit amet adipiscing sem neque sed ipsum.
-    </p>
-
-    <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
-
-    <p>Maecenas nec odio et ante tincidunt tempus.</p>
-
-    <p>Donec vitae sapien ut libero venenatis faucibus.</p>
-
-    <p>Nullam quis ante.</p>
-
-    <p>Etiam sit amet orci eget eros faucibus tincidunt.</p>
-
-    <p>Duis leo.</p>
-
-    <p>Sed fringilla mauris sit amet nibh.</p>
-
-    <p>Donec sodales sagittis magna.</p>
-
-    <p>Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+    <footer class="text-center footerA bg-dark text-white">
+      @copyright info
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

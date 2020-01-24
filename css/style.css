@@ -1,3 +1,59 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
 #mainNav {
-  background-color: #dcd7fa;
+  background-color: black;
+}
+#contact .container,
+.htop div {
+  background-color: rgba(0, 0, 0) transparent;
+  background-color: rgba(0, 0, 0, 0.6);
+  /*width:500px;*/
+  align-items: center;
+  /* align-self: center;*/
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#sidemenu {
+}
+#sidemenu .container {
+  padding: 2em;
+}
+.htop {
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+
+  width: 100%;
+  min-height: auto;
+  background-image: url(../images/sun-rise.jpg);
+  /* background-image: url(http://lorempixel.com/1600/700/sports);*/
+  background-size: cover;
+  color: rgb(197, 54, 121);
+  font-size: 1em;
+  padding: 3em;
+}
+#education {
+  background-image: url(../images/usa-1249880_640.jpg);
+  background-size: cover;
+  color: crimson;
+}
+
+.footerA {
+  height: 200px;
+  padding: 20px;
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  .htop {
+    min-height: 100%;
+  }
+}
+.msection {
+  min-height: 100%;
+  padding: 6em 0;
 }
