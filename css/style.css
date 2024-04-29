@@ -38,9 +38,8 @@ html {
   padding: 3em;
 }
 #education {
-/*   background-image: url(../images/usa-1249880_640.jpg);
-  background-size: cover; */
-  
+  background-image: url(../images/usa-1249880_640.jpg);
+  background-size: cover;
   color: crimson;
 }
 
